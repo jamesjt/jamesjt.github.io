@@ -2,7 +2,7 @@
 Provide a readme.md file that documents:
 - how to build and run your creation.
 
-It's simple! download the index.html file and drag it into a browser window (or go to this url: https://jamesjt.github.io/index.html) Everything is contained in 1 file. 
+It's simple! download the index.html file and drag it into a browser window (or go to this url: https://jamesjt.github.io/index.html) Everything is contained in one file. 
 
 - your thought process when creating the solution.
 
@@ -14,6 +14,8 @@ Staying within the OpenWeatherMap data and sources provided a few problems.
 While the data does provide a location based on coordinates without a tool find timezone, state, region, etc. various aspects of the results are problematic. The API provides the time in GMT, not the local time of the city searched for. It also doesn't specificy which city of its name is getting referenced except by zip code, country, and coordinates. but I neither of which I expected most users to know of both cities they are searching for. Especially if they are looking at cities in other countries. 
 
 There is some other potentially interesting data provided by the API, humidity, wind (especially for pilots), zip code, country, etc. Without really designing for a specific use cause I chose to keep it clean rather than data rich. 
+
+Everything is contained within one file to keep with the minimalist approach. If the project became bigger it would be wise to break out the JS and CSS into their own files even with some (small) cost for setting up the project to run. 
 
 - anything you might implement with more time (features, fixes, technical debt corrections etc).
 
