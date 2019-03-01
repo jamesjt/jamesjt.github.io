@@ -33,7 +33,7 @@ There are many ways to improve its functionality, here are a few:
 
 • Improved art
 
-• Better database access such that I can grab weather at current time vs the next 3 hour data block, or even that provide a better representation of daily data than the 3 hour blocks allow. (moving into a better database access ASAP seems to be the highest priority to restructure based on expected uses so tech debt can be avoided).
+• Utilzing better database access ASAP  is a high priority. So that the project can be restructured for expected uses and tech debt can be avoided while the project is still small.
 
 • Weather trends over a much longer period of time. 
 
