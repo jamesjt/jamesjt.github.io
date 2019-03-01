@@ -1,14 +1,14 @@
 
 Provide a readme.md file that documents:
-- how to build and run your creation.
+**how to build and run your creation**
 
 It's simple! download the index.html file and drag it into a browser window ( to try it out go to this url: https://jamesjt.github.io/index.html) Everything is contained in one file. 
 
-- your thought process when creating the solution.
+**your thought process when creating the solution**
 
 As the project doesn't have as specific use case or user base I created something minimal I might use. I only really ever use weather apps to compare basic aspects of cities. Due to the restrictions of the API and needing just simple information I focused on building something minimalist. A few times I considered pulling from sources outside of OpenWeatherMap but chose to keep it entirely contained within the resources it provides. 
 
-- any tradeoffs you made.
+**any tradeoffs you made**
 
 Staying within the OpenWeatherMap data and sources provided a few problems.
 While the data does provide a location based on coordinates without a tool find timezone, state, region, etc. various aspects of the results are problematic. The API provides the time in GMT, not the local time of the city searched for. It also doesn't specificy which city of its name is getting referenced except by zip code, country, and coordinates. but I neither of which I expected most users to know of both cities they are searching for. Especially if they are looking at cities in other countries. 
@@ -17,7 +17,7 @@ There is some other potentially interesting data provided by the API, humidity, 
 
 Everything is contained within one file to keep with the minimalist approach. If the project became bigger it would be wise to break out the JS and CSS into their own files even with some (small) cost for setting up the project to run. 
 
-- anything you might implement with more time (features, fixes, technical debt corrections etc).
+**anything you might implement with more time (features, fixes, technical debt corrections etc)**
 
 There are many ways to improve its functionality, here are a few:  
 • Fixing the time issue as mentioned above. 
