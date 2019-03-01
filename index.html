@@ -26,13 +26,13 @@
     forecastDay = [];
 		city = document.getElementById("citySearchP" + pane).value;
     request.onreadystatechange = function() {
-        if (request.readyState == XMLHttpRequest.DONE) {   // XMLHttpRequest.DONE == 4
+        if (request.readyState == XMLHttpRequest.DONE) {
            if (request.status == 200) {
 			    		data = JSON.parse(request.responseText);
 			    		console.log(data);
 			    		//Commented out description but kept in case it needed to be quickly added for screen readers. 
 			    		//document.getElementById("weatherDesc0P" + pane).innerHTML = data.list[0].weather[0].description;
-			    		document.getElementById("weatherDesc0P" + pane).style.backgroundImage = "url('http://openweathermap.org/img/w/" + data.list[0].weather[0].icon + ".png')";
+			    		document.getElementById("weatherDesc0P" + pane).style.backgroundImage = "url('https://openweathermap.org/img/w/" + data.list[0].weather[0].icon + ".png')";
 			    		document.getElementById("dt_dayP" + pane).innerHTML = data.list[0].dt_txt.substring(5,10);
 			    		document.getElementById("dt_timeP" + pane).innerHTML = data.list[0].dt_txt.substring(10,16);
 			    		var forecastIndex = 0;
@@ -84,7 +84,7 @@
 			      		document.getElementById("nextDayTempDivider" + i + "P" + pane).innerHTML = "-";
 			      		//Commented out description but kept in case it needed to be quickly added for screen readers. 
 			      		//document.getElementById("weatherDesc" + i + "P" + pane).alt = mostFreqStr(forecastDay[i].weatherDesc);
-			      		document.getElementById("weatherDesc" + i + "P" + pane).style.backgroundImage = "url('http://openweathermap.org/img/w/" + mostFreqStr(forecastDay[i].weatherIcon) + ".png')";
+			      		document.getElementById("weatherDesc" + i + "P" + pane).style.backgroundImage = "url('https://openweathermap.org/img/w/" + mostFreqStr(forecastDay[i].weatherIcon) + ".png')";
 			      	}
            } else {
                alert('404: City Not Found');
@@ -272,7 +272,7 @@
 	.searchButton{
 		width:20px;
 		height:19px;
-		background: url("http://www.stickpng.com/assets/images/585e4ae1cb11b227491c3393.png") center no-repeat;
+		background: url("https://www.stickpng.com/assets/images/585e4ae1cb11b227491c3393.png") center no-repeat;
 		background-size: 15px 15px;
 		background-color:rgb(250,250,250);
 		position: absolute;
