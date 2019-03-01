@@ -19,11 +19,19 @@ There is some other potentially interesting data provided by the API, humidity, 
 
 There are many ways to improve its functionality, here are a few:  
 • Fixing the time issue as mentioned above. 
+
 • Allowing a user to click on day to get additional information about that day, humidity, wind direction, wind speed, etc. 
+
 • Structuring it for mobile such that a city pane is better designed to that experience.  
+
 • Adding additional panes (some tech debt created now by not having the number of panes already be dynamic)
+
 • Dynamic background based on weather conditions of the day
+
 • Improved art
+
 • Better database access such that I can grab weather at current time vs the next 3 hour data block, or even that provide a better representation of daily data than the 3 hour blocks allow. (moving into a better database access ASAP seems to be the highest priority to restructure based on expected uses so tech debt can be avoided).
+
 • Weather trends over a much longer period of time. 
+
 • Customization of basic data displayed for individual users. 
