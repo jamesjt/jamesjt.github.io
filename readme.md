@@ -12,7 +12,7 @@ As the project doesn't have as specific use case or user base I created somethin
 **Any tradeoffs you made**
 
 Staying within the OpenWeatherMap data and sources provided a few problems.
-While the data does provide a location based on coordinates without a tool find timezone, state, region, etc. various aspects of the results are problematic. The API provides the time in GMT, not the local time of the city searched for. It also doesn't specificy which city of its name is getting referenced except by zip code, country, and coordinates. but I neither of which I expected most users to know of both cities they are searching for. Especially if they are looking at cities in other countries. 
+While the data does provide a location based on coordinates without a tool find timezone, state, region, etc. various aspects of the results are problematic. The API provides the time in GMT, not the local time of the city searched for. It also doesn't specificy which city of its name is getting referenced except by zip code, country, and coordinates. Country didn't feel percise enough to include in many cases, and I except few users to know a zip or coordinate for both cities they are looking for. Especially if they are looking at cities in other countries. 
 
 There is some other potentially interesting data provided by the API, humidity, wind (especially for pilots), zip code, country, etc. Without really designing for a specific use cause I chose to keep it clean rather than data rich. 
 
