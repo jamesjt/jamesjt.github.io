@@ -21,14 +21,14 @@ Everything is contained within one file to keep with the minimalist approach. If
 **Anything you might implement with more time (features, fixes, technical debt corrections etc)**
 
 There are many ways to improve its functionality, here are a few:  
-• Fixing the time issue as mentioned above. 
-• Allowing a user to click on day to get additional information about that day, humidity, wind direction, wind speed, etc. 
-• Structuring it for mobile such that a city pane is better designed to that experience.  
-• Adding additional panes (some tech debt created now by not having the number of panes already be dynamic)
-• Dynamic background based on weather conditions of the day
-• Improved art
-• Utilzing better database access ASAP  is a high priority. So that the project can be restructured for expected uses and tech debt can be avoided while the project is still small.
-• Weather trends over a much longer period of time. 
-• Customization of basic data displayed for individual users. 
-• Improved error messaging and accessibility features
-• List options when trying in search, include country, region, airport, and other identification data based on target users.
+- Fixing the time issue as mentioned above. 
+- Allowing a user to click on day to get additional information about that day, humidity, wind direction, wind speed, etc. 
+- Structuring it for mobile such that a city pane is better designed to that experience.  
+- Adding additional panes (some tech debt created now by not having the number of panes already be dynamic)
+- Dynamic background based on weather conditions of the day
+- Improved art
+- Utilzing better database access ASAP  is a high priority. So that the project can be restructured for expected uses and tech debt can be avoided while the project is still small.
+- Weather trends over a much longer period of time. 
+- Customization of basic data displayed for individual users. 
+- Improved error messaging and accessibility features
+- List options when trying in search, include country, region, airport, and other identification data based on target users.
