@@ -37,3 +37,5 @@ There are many ways to improve its functionality, here are a few:
 • Weather trends over a much longer period of time. 
 
 • Customization of basic data displayed for individual users. 
+
+• Improved error messaging and accessibility features
