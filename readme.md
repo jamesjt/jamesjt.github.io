@@ -2,7 +2,7 @@
 Provide a readme.md file that documents:
 - how to build and run your creation.
 
-It's simple! download the index.html file and drag it into a browser window (or go to this url: https://jamesjt.github.io/index.html) Everything is contained in one file. 
+It's simple! download the index.html file and drag it into a browser window ( to try it out go to this url: https://jamesjt.github.io/index.html) Everything is contained in one file. 
 
 - your thought process when creating the solution.
 
