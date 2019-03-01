@@ -39,3 +39,5 @@ There are many ways to improve its functionality, here are a few:
 • Customization of basic data displayed for individual users. 
 
 • Improved error messaging and accessibility features
+
+• List options when trying in search, include country, region, airport, and other identification data based on target users.
